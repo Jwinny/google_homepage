@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    float: right;
+    width: 20vmax;
+    background-color: rgb(163, 122, 69);
+}
+header img{
+    height: 40px;
+    width: 40px;
+}
