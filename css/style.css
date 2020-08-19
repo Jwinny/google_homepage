@@ -1,10 +1,20 @@
 header{
     display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+    justify-content: space-evenly;
     float: right;
-    width: 20vmax;
-    background-color: rgb(163, 122, 69);
+}
+header a{
+    margin:0.5vw 1vw;
 }
 header img{
     height: 40px;
     width: 40px;
+}
+a{
+    color:#262626;
+}
+article{
+    clear: both;
 }
