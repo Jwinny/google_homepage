@@ -1,6 +1,6 @@
 header{
     display: flex;
-    flex-flow: nowrap row;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: space-evenly;
     float: right;
@@ -12,9 +12,25 @@ header img{
     height: 40px;
     width: 40px;
 }
-a{
+header a{
     color:#262626;
 }
 article{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 50%;
     clear: both;
+    align-items: center;
+    margin:auto;
+}
+footer section{
+    background-color:#f2f2f2;
+    color: rgba(0,0,0,.54);
+}
+footer a{
+    color: rgba(0,0,0,.54);   
+}
+#fdireita{
+    float:right;
 }
